@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Question9 {
+class TableOfNo {
     public static void main(String[] args) {
         int n;
         Scanner s= new Scanner(System.in);
@@ -7,7 +7,7 @@ class Question9 {
         n = s.nextInt();
         System.out.println("The table of number is ");
        for(int i=1;i<=10;i++){
-            System.out.println(+n+" * "+i+" = "+(n*i));
+        System.out.println(+n+" * "+i+" = "+(n*i));
        }
     }
 }
