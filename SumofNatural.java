@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Question7 {
+class  SumofNatural{
     public static void main(String[] args) {
         int n;
         int sum=0;
