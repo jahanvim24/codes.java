@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Question1{
+public class PrintANumber{
 public static void main(String []args){
 int a;
 Scanner s= new Scanner(System.in);
