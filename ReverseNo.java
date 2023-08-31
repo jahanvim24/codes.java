@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Question12 {
+class ReverseNo {
     public static void main(String[] args) {
         System.out.println("Enter any number ");
         Scanner s=new Scanner(System.in);
