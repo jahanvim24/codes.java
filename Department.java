@@ -1,4 +1,4 @@
-public class Question15{
+public class Department{
    private String name;
    private int num;
    public void set(String name, int num){
@@ -10,8 +10,8 @@ public class Question15{
       System.out.println(num);
    }
  public static void main(String [] args){
-    Question15 d1= new Question15();
-    Question15 d2= new Question15();
+    Department d1= new  Department();
+    Department d2= new  Department();
     d1.set("CSIT",240);
     System.out.println("The department and strength respectively is ");
     d1.get();
