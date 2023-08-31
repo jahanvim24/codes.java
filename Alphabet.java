@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Question5 {
+class Alphabet {
     public static void main(String[] args) {
         char ch;
         Scanner s= new Scanner(System.in);
