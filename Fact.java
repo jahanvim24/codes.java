@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Question8 {
+class Fact {
     public static void main(String[] args) {
         int n;
         int f=1;
