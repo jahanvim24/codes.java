@@ -1,4 +1,4 @@
-class Question2 {
+class PrimitiveData{
     public static void main(String[] args) {
         boolean a=true;
         char b='a';
