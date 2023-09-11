@@ -1,17 +1,17 @@
-class Complex{
+class Marriage{
   String name;
   String surname;
-  public Complex(String r, String i){
+  public Marriage(String r, String i){
     name = r;
     surname = i;
   }
-  static Complex add(Complex ob1,Complex ob2){
-      return new Complex (ob1.name ,ob1.surname+" "+ob2.surname);
+  static Marriage add(Marriage ob1,Marriage ob2){
+      return new Marriage (ob1.name ,ob1.surname+" "+ob2.surname);
   }
     public static void main(String []args){
-    Complex ob1= new Complex("Aishwariya","Rai");
-    Complex ob2= new Complex("Abishek","Bachchan");
-    Complex ob3=Complex.add(ob1,ob2);
+    Marriage ob1= new Marriage("Aishwariya","Rai");
+    Marriage ob2= new Marriage("Abishek","Bachchan");
+    Marriage ob3=Marriage.add(ob1,ob2);
     System.out.println(ob3.name+" "+ob3.surname);
     
    }
