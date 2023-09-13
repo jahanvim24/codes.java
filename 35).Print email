@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+       Scanner s= new Scanner(System.in);
+       System.out.println("Enter your name ");
+       String a;
+       a=s.nextLine();
+        System.out.println("Enter your enroll no ");
+       String b;
+       b=s.nextLine();
+       System.out.println("Enter your year");
+       int c;
+       c=s.nextInt();
+       String yr=String.valueOf(c);
+       String joinedString = a.concat(yr);
+       String m = b.substring(9,12);
+       System.out.println(joinedString.concat(m)+"@acropolis.in");
+     }
+}
