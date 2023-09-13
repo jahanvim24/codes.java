@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter any string ");
+        String j;
+        j =s.nextLine();
+        System.out.println("Enter in which case you want to convert \nEnter 1 for uppercase \nEnter 2 for lowercase  ");
+        int n;
+        n=s.nextInt();
+        switch(n){
+            case 1:
+                System.out.println(j.toUpperCase());
+                break;
+                
+            case 2:
+                System.out.println(j.toLowerCase());
+                break;
+            default:
+                System.out.println("You have entered invalid choice \n");
+        }
+            
+     }
+}
