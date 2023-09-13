@@ -1,0 +1,8 @@
+class Main {
+    public static void main(String[] args) {
+       String greet="Java";
+       System.out.println("String :\n "+greet+"\n");
+        int length=greet.length();
+        System.out.println("Length:\n "+length);
+     }
+}
